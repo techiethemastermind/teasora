@@ -1,0 +1,243 @@
+/**
+ * product-search.css
+ *
+ * Copyright (c) 2014 "kento" Karim Rahimpur www.itthinx.com
+ *
+ * This code is released under the GNU General Public License.
+ * See COPYRIGHT.txt and LICENE.txt.
+ *
+ * This code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * This header and all notices must be kept intact.
+ *
+ * @author itthinx
+ * @package woocommerce-product-generator
+ * @since 1.0.0
+ */
+ 
+ /*
+ add new
+ */
+.dv-design-wrap{
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
+	background: #fff;
+}
+#tbl-design{
+	width:100%;
+	//text-align:right;
+}
+h5{
+	margin:0px;
+}
+.dv-design-img{
+	width: 160px;
+	height: 160px;
+	margin: 10px;
+	//display: inline-block;
+	text-align: center;
+}
+.design-img{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	position: relative;
+	border: 1px dashed #ccc;
+	margin-right: 5px;
+	cursor: copy;
+}
+.design-view{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: relative;
+	border: 1px dashed #ccc;
+	margin-right: 5px;
+	cursor: copy;
+	text-align: center;
+	margin-left: 25px;
+}
+.dv-design-info{
+	padding: 10px;
+	display: inline-block;
+}
+.dv-target{
+	display: inline-block;
+	width: 200px;
+}
+.set-tbl-header{
+	background-color: rgb(212, 212, 212);
+	box-shadow: 0px 1px 0px 0px;
+}
+.thumb-nail{
+	width:60px;
+}
+.brand-name{
+	width:8%;
+}
+.product-name{
+	width:12%;
+}
+/*
+ add new
+ */
+div.color-rect{
+	margin: 0 5px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	border-radius:3px;
+	border: 1px solid black;
+}
+.selected{
+	color:red;
+}
+.color-rect:hover{
+	cursor:pointer;
+}
+.product-row:hover{
+	cursor:pointer;
+}
+.product-row  td{
+	vertical-align:middle;
+}
+.color-rect-default{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+	border: 1px solid;
+}
+.cost{
+	width:10%;
+}
+.profit{
+	width:10%;
+}
+.edit-butt{
+	color: blue;
+	margin-left: 10px;
+	font-size: 10px;
+}
+.edit-butt:hover{
+	cursor:pointer;
+	color:red;
+}
+.edit{
+	margin-left: 0px;
+	padding:0 10px;
+}
+.edit-color{
+	
+}
+.tbl-color {
+	margin: 20px;
+	border-spacing: 0;
+	border: 1px solid #e5e5e5;
+	width:90%;
+	}
+.tbl-color  tr{
+	border-bottom: 1px solid black !important;
+}
+.check{
+	margin-top: 2px;
+}
+.sel-color{
+	height: 25px;
+	top: -3px;
+	position: relative;
+}
+#the-list h4{
+	display:-moz-inline-box;
+	margin-left:20px;
+}
+#the-list input{
+	margin-left:10px;
+}
+.tabs {
+    width:100%;
+    display:inline-block;
+}
+.wrap-size{
+	border: 1px solid black;
+	padding: 3px 5px;
+	border-radius: 3px;
+	margin: 3px 15px;
+}
+.span-size{
+	padding-right: 15px;
+}
+.size-close{
+	background-color: #817878;
+	color: white;
+	padding: 3px 5px;
+	cursor: pointer;
+}
+ 
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+
+.tab-links li {
+	margin:0px 5px;
+	float:left;
+	list-style:none;
+}
+
+.tab-links a {
+	padding:9px 15px;
+	display:inline-block;
+	border-radius:3px 3px 0px 0px;
+	background:#D4D4D4;
+	font-size:16px;
+	font-weight:600;
+	color:#4c4c4c;
+	transition:all linear 0.15s;
+}
+
+.tab-links a:hover {
+	background:#a7cce5;
+	text-decoration:none;
+}
+
+li.active a, li.active a:hover {
+	background:#fff;
+	color:#4c4c4c;
+}
+li a{
+	text-decoration:none;
+}
+
+/*----- Content of Tabs -----*/
+.tab-content {
+	padding:15px;
+	border-radius:3px;
+	box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+	background:#fff;
+}
+
+.tab {
+	display:none;
+}
+
+.tab.active {
+	display:block;
+}
+#tbl-brand tbody input{
+	position: relative;
+	top: 3px;
+}
+#tbl-product tbody input{
+	position: relative;
+	top: 3px
+}
