@@ -38,13 +38,11 @@ Paura Product Manager is a powerful WordPress plugin designed to empower WooComm
 
 ## Frequently Asked Questions 
 
-- Can I use this plugin without WooCommerce? 
+**Q: Can I use this plugin without WooCommerce?**  
+A: No, this plugin is specifically designed to work with WooCommerce. Make sure you have WooCommerce installed and activated before using the "Paura Product Manager" plugin.
 
-No, this plugin is specifically designed to work with WooCommerce. Make sure you have WooCommerce installed and activated before using the "Paura Product Manager" plugin.
-
-- Is coding knowledge required to use this plugin? 
-
-No coding knowledge is required. "Paura Product Manager" provides an intuitive drag-and-drop interface to build custom plugins.
+**Q: Is coding knowledge required to use this plugin?**  
+A: No coding knowledge is required. "Paura Product Manager" provides an intuitive drag-and-drop interface to build custom plugins.
 
 ## Changelog 
 
